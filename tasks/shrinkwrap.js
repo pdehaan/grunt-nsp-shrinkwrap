@@ -1,12 +1,11 @@
 var request = require('request');
-require('colors');
 var fs = require('fs');
 var path = require('path');
 var table = require('text-table');
 var color = require('cli-color');
 var ansiTrim = require('cli-color/lib/trim');
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
     grunt.registerTask('shrinkwrap', 'Submits npm-shrinkwrap.json to nodesecurity.io for validation', function () {
         var done = this.async();
@@ -59,4 +58,4 @@ module.exports = function(grunt) {
 
     });
 
-}
+};
