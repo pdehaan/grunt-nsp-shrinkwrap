@@ -1,12 +1,19 @@
 {
   "name": "grunt-nsp-shrinkwrap",
-  "version": "0.0.2",
   "description": "Grunt plugin for Node Security Project npm-shrinkwrap.json validation",
-  "main": "Gruntfile.js",
-  "homepage": "https://nodesecurity.io",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+  "version": "0.0.2",
+  "author": "Adam Baldwin",
+  "dependencies": {
+    "cli-color": "^0.2.3",
+    "colors": "^0.6.2",
+    "grunt": "^0.4.4",
+    "request": "^2.34.0",
+    "text-table": "^0.2.0"
   },
+  "devDependencies": {
+    "precommit-hook": "^0.3.10"
+  },
+  "homepage": "https://nodesecurity.io",
   "keywords": [
     "nsp",
     "grunt",
@@ -14,16 +21,9 @@
     "npm-shrinkwrap.json",
     "security"
   ],
-  "author": "Adam Baldwin",
   "license": "MIT",
-  "dependencies": {
-    "grunt": "^0.4.4",
-    "request": "^2.34.0",
-    "colors": "^0.6.2",
-    "text-table": "^0.2.0",
-    "cli-color": "^0.2.3"
-  },
-  "devDependencies": {
-    "precommit-hook": "^0.3.10"
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
   }
 }

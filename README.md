@@ -22,3 +22,6 @@ grunt.registerTask("default", 'shrinkwrap');
 
 MIT
 
+# Badges
+
+[![Dependency Status](https://david-dm.org/nodesecurity/grunt-nsp-shrinkwrap.png)](https://david-dm.org/nodesecurity/grunt-nsp-shrinkwrap)
