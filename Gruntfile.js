@@ -4,5 +4,5 @@ module.exports = function (grunt) {
 
     grunt.loadTasks('tasks');
 
-    grunt.registerTask('default', ['shrinkwrap']);
+    grunt.registerTask('default', ['validate-shrinkwrap']);
 };

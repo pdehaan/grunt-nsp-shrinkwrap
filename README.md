@@ -13,9 +13,9 @@ Add this line to your project's grunt.js gruntfile:
 grunt.loadNpmTasks('grunt-nsp-shrinkwrap');
 ```
 
-Then use the tasks `shrinkwrap` build tasks eg.
+Then use the task `validate-shrinkwrap` build tasks eg.
 ```js
-grunt.registerTask("default", 'shrinkwrap');
+grunt.registerTask("default", 'validate-shrinkwrap');
 ```
 
 # License

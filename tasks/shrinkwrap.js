@@ -7,7 +7,7 @@ var ansiTrim = require('cli-color/lib/trim');
 
 module.exports = function (grunt) {
 
-    grunt.registerTask('shrinkwrap', 'Submits npm-shrinkwrap.json to nodesecurity.io for validation', function () {
+    grunt.registerTask('validate-shrinkwrap', 'Submits npm-shrinkwrap.json to nodesecurity.io for validation', function () {
         var done = this.async();
         var file = path.resolve(process.cwd(), 'npm-shrinkwrap.json');
 
