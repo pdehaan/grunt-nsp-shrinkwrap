@@ -1,7 +1,7 @@
 {
   "name": "grunt-nsp-shrinkwrap",
   "description": "Grunt plugin for Node Security Project npm-shrinkwrap.json validation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Adam Baldwin",
   "dependencies": {
     "cli-color": "^0.2.3",
