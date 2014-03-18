@@ -14,9 +14,15 @@
     "precommit-hook": "^0.3.10"
   },
   "homepage": "https://nodesecurity.io",
+  "bugs": "https://github.com/nodesecurity/grunt-nsp-shrinkwrap/issues/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nodesecurity/grunt-nsp-shrinkwrap.git"
+  },
   "keywords": [
     "nsp",
     "grunt",
+    "gruntplugin",
     "shrinkwrap",
     "npm-shrinkwrap.json",
     "security"
