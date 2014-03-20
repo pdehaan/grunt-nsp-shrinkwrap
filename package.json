@@ -2,7 +2,7 @@
   "name": "grunt-nsp-shrinkwrap",
   "description": "Grunt plugin for Node Security Project npm-shrinkwrap.json validation",
   "version": "0.0.3",
-  "author": "Adam Baldwin",
+  "author": "Adam Baldwin (https://nodesecurity.io)",
   "dependencies": {
     "cli-color": "^0.2.3",
     "colors": "^0.6.2",
@@ -13,7 +13,7 @@
   "devDependencies": {
     "precommit-hook": "^0.3.10"
   },
-  "homepage": "https://nodesecurity.io",
+  "homepage": "https://github.com/nodesecurity/grunt-nsp-shrinkwrap/",
   "bugs": "https://github.com/nodesecurity/grunt-nsp-shrinkwrap/issues/",
   "repository": {
     "type": "git",
